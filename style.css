@@ -46,3 +46,26 @@ span{
     font-size: 50px;
 
 }
+
+.secondpart{
+
+    margin-top: 6rem;
+    width: 1140px;
+    height: 1187px;
+}
+
+.cart{
+    border-color: #E95A08;
+    border-width: 1px;
+
+    width:270px;
+    height:485;
+}
+.cartbutton{
+    text-align: center;
+    width: 270px;
+    height:50px;
+    background-color: #E95A08;
+
+
+}
