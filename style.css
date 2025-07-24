@@ -1,0 +1,48 @@
+.letssee{
+   /* margin-left: 4rem;
+   margin-top: 1rem; */
+   /* border-color: bisque;
+   border-width: 2px; */
+
+   max-width: 1140px;
+   padding-left: 6rem;
+
+
+}
+
+.navbarItems{
+    
+
+    margin-left: 33rem;
+    margin-top:2rem;
+    gap: 2rem;
+
+
+}
+
+.headline{
+    font-size: 62px;
+    font-family: Serif;
+    width: 517px;
+    height: 81px;
+}
+.para{
+    max-width: 400px;
+}
+.freshFlowers{
+    
+    height :461px;
+    width:1140;
+    margin-top: 7rem;
+    padding: 6rem;
+    
+}
+span{
+    color: #E95A08;
+}
+
+.headlinetwo{
+ 
+    font-size: 50px;
+
+}
