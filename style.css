@@ -52,8 +52,8 @@ span{
     margin-top: 6rem;
     /* width: 1140px;
     height: 1187px; */
-       border-color: bisque;
-   border-width: 2px;
+       /* border-color: bisque;
+   border-width: 2px; */
    
     
 }
@@ -79,6 +79,70 @@ span{
    padding:2rem;
    height:999.88px;
    width:1140;
-   
+
+
 
 }
+
+.newsletter {
+  margin-top: 7rem;
+}
+
+.newsletterbgimage {
+  background-image: url(/B12A02-Responsive-Flowers/assets/news-letter-bg.png);
+  background-size: cover;
+  background-position: center;
+  height: 533px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsletter-content {
+  text-align: center;
+  width: 90%;
+  max-width: 800px;
+}
+
+.newsletter-content h1 {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.newsletter-form {
+  display: flex;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+ 
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.newsletter-form input {
+  flex: 1;
+  padding: 16px 20px;
+  border: none;
+  font-size: 1rem;
+  outline: none;
+   background-color: white; 
+}
+
+.newsletter-form button {
+  background-color: #f25022;
+  color: white;
+  border: none;
+  padding: 0 25px;
+  font-size: 1rem;
+  cursor: pointer;
+ 
+}
+
+.newsletter-form button:hover {
+  background-color: #d13f14;
+}
+
+
