@@ -48,24 +48,37 @@ span{
 }
 
 .secondpart{
-
+   
     margin-top: 6rem;
-    width: 1140px;
-    height: 1187px;
+    /* width: 1140px;
+    height: 1187px; */
+       border-color: bisque;
+   border-width: 2px;
+   
+    
 }
 
 .cart{
-    border-color: #E95A08;
-    border-width: 1px;
+    /* border-color: #E95A08;
+    border-width: 1px; */
 
     width:270px;
-    height:485;
+    height:484.94px;
 }
 .cartbutton{
     text-align: center;
     width: 270px;
     height:50px;
     background-color: #E95A08;
+    padding-top: 10px;
 
+
+}
+.flowerscart{
+  
+   padding:2rem;
+   height:999.88px;
+   width:1140;
+   
 
 }
