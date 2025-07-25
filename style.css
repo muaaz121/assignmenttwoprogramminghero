@@ -350,3 +350,184 @@ span{
 }
 
 
+@media (max-width: 768px) {
+
+  body {
+  
+    overflow-x: hidden; 
+  }
+
+
+  .letssee {
+    padding: 1rem 1rem; 
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbarItems {
+    margin-left: 0; /* Remove the large margin */
+    gap: 1rem; /* Reduce gap */
+  }
+
+  /* Hide Home, Shop, About Us on mobile */
+  .navbarItems li:not(:last-child) {
+    display: none;
+  }
+  
+  .navbarItems li:last-child {
+      font-weight: bold; /* Make cart text bold */
+  }
+
+
+  /* --- Hero Section: "Always Fresh Flowers" --- */
+  .freshFlowers {
+    flex-direction: column-reverse; /* Stacks text above the image */
+    padding: 2rem 1rem;
+    margin-top: 2rem;
+    height: auto; /* Allow height to be determined by content */
+    text-align: center;
+  }
+
+  .headline {
+    font-size: 2.5rem; /* Reduce headline font size */
+    width: 100%;
+    height: auto;
+    font-family: 'Poppins', sans-serif; /* Match sans-serif style from image */
+    line-height: 1.2;
+  }
+  
+  .freshFlowers img {
+    width: 100%;
+    max-width: 350px; /* Control max image size */
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .para {
+    max-width: 100%; /* Allow paragraph to fill the width */
+    margin: 1rem auto 0;
+  }
+
+  /* --- Plants Section --- */
+  .secondpart {
+    margin-top: 3rem;
+  }
+
+  .headlinetwo {
+    font-size: 2rem; /* Reduce section title font size */
+  }
+  
+  .secondpart > .text-center p {
+      padding: 0 1rem;
+  }
+
+  .flowerscart {
+    /* Change grid to 2 columns */
+    grid-template-columns: repeat(2, 1fr); 
+    padding: 1.5rem 1rem;
+    width: 100%;
+    height: auto; /* Remove fixed height */
+    gap: 1rem; /* Reduce gap between cards */
+  }
+  
+  .cart {
+    width: 100%; /* Make cart items fill the column */
+    height: auto;
+  }
+
+  .cart img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .cartbutton {
+      width: 100%;
+  }
+
+  /* --- Flower & Plants Lover Section --- */
+  .about-section {
+    margin-top: 3rem;
+    padding: 2rem 1rem;
+  }
+
+  .about-container {
+    flex-direction: column; /* Stack image and text */
+    gap: 20px;
+    text-align: center;
+  }
+
+  .image-container {
+    margin-bottom: 30px; /* Space between image and text */
+  }
+
+  .trusted-badge {
+    width: 90px;
+    top: -25px;
+    right: -25px;
+  }
+
+  .text-container h2 {
+    font-size: 2rem;
+  }
+  
+  .text-container ul {
+      text-align: left; /* Keep list items left-aligned */
+  }
+
+  /* --- Latest Deals Section --- */
+  .deals-section {
+    margin-top: 3rem;
+    padding: 2rem 1rem;
+  }
+
+  .deals-container {
+    flex-direction: column; /* Stack all deal cards vertically */
+  }
+
+  .deals-header h2 {
+      font-size: 2rem;
+  }
+
+  /* Make all deal cards the same height on mobile */
+  .large-card {
+    min-height: 250px;
+  }
+  
+  .deal-info h2 {
+      font-size: 1.8rem;
+  }
+  
+  .deal-info h3 {
+      font-size: 1.2rem;
+  }
+
+
+  /* --- Newsletter Section --- */
+  .newsletter {
+    margin-top: 3rem;
+  }
+  
+  .newsletterbgimage {
+      height: 350px;
+  }
+  
+  .newsletter-content h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .newsletter-form {
+    flex-direction: column; /* Stack input and button */
+    gap: 10px;
+    max-width: 90%;
+  }
+  
+  .newsletter-form button {
+      border-radius: 8px; /* Give button rounded corners when stacked */
+      padding: 16px;
+  }
+  .newsletter-form input {
+      border-radius: 8px;
+  }
+
+}
